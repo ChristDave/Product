@@ -7,11 +7,11 @@ package mgarzon.createbest.productcatalog;
 public class Product {
     private String _id;
     private String _productname;
-    private double _price;
+    private int _price;
 
     public Product() {
     }
-    public Product(String id, String productname, double price) {
+    public Product(String id, String productname, int price) {
         _id = id;
         _productname = productname;
         _price = price;
@@ -40,5 +40,3 @@ public class Product {
         return _price;
     }
 }
-
-
